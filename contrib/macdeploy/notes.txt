@@ -8,6 +8,8 @@ Install it by invoking "sudo easy_install appscript".
 Ths script should be invoked in the target directory like this:
 $source_dir/contrib/macdeploy/macdeployqtplus Alancoin-Qt.app -add-qt-tr da,de,es,hu,ru,uk,zh_CN,zh_TW -dmg -fancy $source_dir/contrib/macdeploy/fancy.plist -verbose 2
 
+./contrib/macdeploy/macdeployqtplus Alancoin-Qt.app -add-qt-tr da,de,es,hu,ru,uk,zh_CN,zh_TW -dmg -fancy ./contrib/macdeploy/fancy.plist -verbose 2
+
 During the process, the disk image window will pop up briefly where the fancy
 settings are applied. This is normal, please do not interfere.
 

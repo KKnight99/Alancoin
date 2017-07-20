@@ -92,10 +92,10 @@ public:
         nProofOfWorkLimit = uint256S("000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         nProofOfStakeLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 
-		genesis = CreateGenesisBlock(1500520732, 7133899, 0x1e00ffff, 1, (1 * COIN));
+		genesis = CreateGenesisBlock(1500559762, 15178930, 0x1e00ffff, 1, (1 * COIN));
 		hashGenesisBlock = genesis.GetHash();
         //begin
-        if (true && genesis.GetHash() != uint256S("0x000000b0a745d1459355fa7833a169e5bed57d69f8e3c516470bf7cbdc2c10b8"))
+        if (true && genesis.GetHash() != uint256S("0x0000008611f28458e1820fff70b6235aa36f239ec7128bb6d0326e7f0fd7ef46"))
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
@@ -132,8 +132,8 @@ public:
             printf("block.hashMerkleRoot = 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
         }
         //end
-        assert(hashGenesisBlock == uint256("0x000000b0a745d1459355fa7833a169e5bed57d69f8e3c516470bf7cbdc2c10b8"));
-        assert(genesis.hashMerkleRoot == uint256("0x6294391ed30d162ce5d32c3675cd6428f11f6d88e7d4eefeff180d63e55604da"));
+        assert(hashGenesisBlock == uint256("0x0000008611f28458e1820fff70b6235aa36f239ec7128bb6d0326e7f0fd7ef46"));
+        assert(genesis.hashMerkleRoot == uint256("0x80fd5268da55d7e7da3abf5f9f366bc17e9cda0b8d0f0eb4fb1943a69d174928"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -187,15 +187,15 @@ public:
         nProofOfWorkLimit = uint256S("000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         nProofOfStakeLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 
-		genesis = CreateGenesisBlock(1500520732, 7133899 , 0x1e00ffff, 1, (1 * COIN));
+		genesis = CreateGenesisBlock(1500559762, 15178930 , 0x1e00ffff, 1, (1 * COIN));
 
 
 		hashGenesisBlock = genesis.GetHash();
 
 
 		
-        assert(hashGenesisBlock == uint256("0x000000b0a745d1459355fa7833a169e5bed57d69f8e3c516470bf7cbdc2c10b8"));
-        assert(genesis.hashMerkleRoot == uint256("0x6294391ed30d162ce5d32c3675cd6428f11f6d88e7d4eefeff180d63e55604da "));
+        assert(hashGenesisBlock == uint256("0x0000008611f28458e1820fff70b6235aa36f239ec7128bb6d0326e7f0fd7ef46"));
+        assert(genesis.hashMerkleRoot == uint256("0x80fd5268da55d7e7da3abf5f9f366bc17e9cda0b8d0f0eb4fb1943a69d174928 "));
                 
         vFixedSeeds.clear();
         vSeeds.clear();

@@ -67,7 +67,7 @@ inline int64_t FutureDriftV3(int64_t nTime) { return nTime + 30; } //V3 (2017.6.
 /** "reject" message codes **/
 static const unsigned char REJECT_INVALID = 0x10;
 
-inline int64_t GetMNCollateral(int nHeight) { return 50000; } // *COIN is added with usage implements
+inline int64_t GetMNCollateral(int nHeight) { return 10000; } // *COIN is added with usage implements
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;

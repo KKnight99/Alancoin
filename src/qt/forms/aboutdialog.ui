@@ -92,11 +92,8 @@
        </property>
        <property name="text">
         <string>Copyright (c) 2009-2015 The Bitcoin Core developers
-Copyright (c) 2011-2012 Peercoin (PPCoin) Developers
-Copyright (c) 2013-2014 The NovaCoin developers
-Copyright (c) 2014-2015 Transfer Developers
-Copyright (c) 2016-2017 The ion Core developers
-Copyright (c) 2013-2017 The Alancoin developers</string>
+Copyright (c) 2011-2012 DashCoin Developers
+Copyright (c) 2017-2019 The Alancoin developers</string>
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>

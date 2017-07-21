@@ -138,10 +138,10 @@ LIBS += $$PWD/src/secp256k1/src/libsecp256k1_la-secp256k1.o
    QMAKE_CLEAN += $$PWD/src/secp256k1/src/libsecp256k1_la-secp256k1.o; cd $$PWD/src/secp256k1; $(MAKE) clean
 } else {
    isEmpty(SECP256K1_LIB_PATH) {
-       windows:SECP256K1_LIB_PATH=D:\Alancoin-master\src\secp256k1\.libs
+       windows:SECP256K1_LIB_PATH=c:/dev/coindeps32/Secp256k1/lib
    }
    isEmpty(SECP256K1_INCLUDE_PATH) {
-       windows:SECP256K1_INCLUDE_PATH=D:\Alancoin-master\src\secp256k1\include
+       windows:SECP256K1_INCLUDE_PATH=c:/dev/coindeps32/Secp256k1/include
    }
 }
 
@@ -468,7 +468,7 @@ OTHER_FILES += \
 # platform specific defaults, if not overridden on command line
 isEmpty(BOOST_LIB_SUFFIX) {
     macx:BOOST_LIB_SUFFIX = -mt
-    windows:BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
+    windows:BOOST_LIB_SUFFIX=-mgw48-mt-s-1_57
 }
 
 isEmpty(BOOST_THREAD_LIB_SUFFIX) {
@@ -478,8 +478,8 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_LIB_PATH) {
-    macx:BDB_LIB_PATH = /opt/local/lib/db48
-    windows:BDB_LIB_PATH=C:/dev/coindeps32/bdb-4.8/lib
+    macx:BDB_LIB_PATH = /usr/local/opt/berkeley-db4/lib
+    windows:BDB_LIB_PATH=C:/dev/coindeps32/db-4.8.30.NC/build_unix
 }
 
 isEmpty(BDB_LIB_SUFFIX) {
@@ -487,18 +487,18 @@ isEmpty(BDB_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_INCLUDE_PATH) {
-    macx:BDB_INCLUDE_PATH = /opt/local/include/db48
-    windows:BDB_INCLUDE_PATH=C:/dev/coindeps32/bdb-4.8/include
+    macx:BDB_INCLUDE_PATH = /usr/local/opt/berkeley-db4/include
+    windows:BDB_INCLUDE_PATH=C:/dev/coindeps32/db-4.8.30.NC/build_unix
 }
 
 isEmpty(BOOST_LIB_PATH) {
     macx:BOOST_LIB_PATH = /usr/local/opt/boost/lib
-    windows:BOOST_LIB_PATH=C:/dev/coindeps32/boost_1_57_0/lib
+    windows:BOOST_LIB_PATH=C:/dev/coindeps32/boost_1_57_0/stage/lib
 }
 
 isEmpty(BOOST_INCLUDE_PATH) {
     macx:BOOST_INCLUDE_PATH = /usr/local/opt/boost/include
-    windows:BOOST_INCLUDE_PATH=C:/dev/coindeps32/boost_1_57_0/include
+    windows:BOOST_INCLUDE_PATH=C:/dev/coindeps32/boost_1_57_0
 }
 
 isEmpty(QRENCODE_LIB_PATH) {
@@ -515,22 +515,22 @@ isEmpty(MINIUPNPC_LIB_SUFFIX) {
 
 isEmpty(MINIUPNPC_INCLUDE_PATH) {
     macx:MINIUPNPC_INCLUDE_PATH=/usr/local/opt/miniupnpc/include
-    windows:MINIUPNPC_INCLUDE_PATH=C:/dev/coindeps32/miniupnpc-1.9
+    windows:MINIUPNPC_INCLUDE_PATH=C:/dev/coindeps32/miniupnpc-1.6
 }
 
 isEmpty(MINIUPNPC_LIB_PATH) {
     macx:MINIUPNPC_LIB_PATH=/usr/local/opt/miniupnpc/lib
-    windows:MINIUPNPC_LIB_PATH=C:/dev/coindeps32/miniupnpc-1.9
+    windows:MINIUPNPC_LIB_PATH=C:/dev/coindeps32/miniupnpc-1.6
 }
 
 isEmpty(OPENSSL_INCLUDE_PATH) {
     macx:OPENSSL_INCLUDE_PATH = /usr/local/opt/openssl/include
-    windows:OPENSSL_INCLUDE_PATH=C:/dev/coindeps32/openssl-1.0.1p/include
+    windows:OPENSSL_INCLUDE_PATH=C:/dev/coindeps32/openssl-1.0.1l/include
 }
 
 isEmpty(OPENSSL_LIB_PATH) {
     macx:OPENSSL_LIB_PATH = /usr/local/opt/openssl/lib
-    windows:OPENSSL_LIB_PATH=C:/dev/coindeps32/openssl-1.0.1p/lib
+    windows:OPENSSL_LIB_PATH=C:/dev/coindeps32/openssl-1.0.1l
 }
 
 # use: qmake "USE_UPNP=1" ( enabled by default; default)

@@ -3,11 +3,11 @@
     <name>AboutDialog</name>
     <message>
         <source>About Ion</source>
-        <translation>關于黑幣</translation>
+        <translation>關于阿蘭</translation>
     </message>
     <message>
         <source>&lt;b&gt;Ion&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;黑幣客戶端&lt;/b&gt; 版本</translation>
+        <translation>&lt;b&gt;阿蘭客戶端&lt;/b&gt; 版本</translation>
     </message>
     </context>
 <context>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>These are your Ion addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>這是您用來接收支付的黑幣地址列表。爲不同的支付方建立不同的地址以便于了解支付來源。</translation>
+        <translation>這是您用來接收支付的阿蘭地址列表。爲不同的支付方建立不同的地址以便于了解支付來源。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -49,7 +49,7 @@
     </message>
     <message>
         <source>Sign a message to prove you own a Ion address</source>
-        <translation>對信息進行簽名以證明您對該黑幣地址的所有權</translation>
+        <translation>對信息進行簽名以證明您對該阿蘭地址的所有權</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -61,7 +61,7 @@
     </message>
     <message>
         <source>Verify a message to ensure it was signed with a specified Ion address</source>
-        <translation>驗證信息以保證其經過指定黑幣地址的簽名</translation>
+        <translation>驗證信息以保證其經過指定阿蘭地址的簽名</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您丟失了加密該錢包的密碼，其中所有的黑幣將會丟失！</translation>
+        <translation>警告：如果您丟失了加密該錢包的密碼，其中所有的阿蘭將會丟失！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -191,7 +191,7 @@
     </message>
     <message>
         <source>Ion will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>黑幣客戶端即將關閉以完成加密過程。請記住，加密錢包並不能完全防止您的電子貨幣被入侵您計算機的木馬軟件盜竊。</translation>
+        <translation>阿蘭客戶端即將關閉以完成加密過程。請記住，加密錢包並不能完全防止您的電子貨幣被入侵您計算機的木馬軟件盜竊。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Show information about Ion</source>
-        <translation>關于黑幣 </translation>
+        <translation>關于阿蘭 </translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -296,7 +296,7 @@
     </message>
     <message>
         <source>Send coins to a Ion address</source>
-        <translation>向指定的地址發送黑幣</translation>
+        <translation>向指定的地址發送阿蘭</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -348,11 +348,11 @@
     </message>
     <message>
         <source>Ion client</source>
-        <translation>黑幣客戶端</translation>
+        <translation>阿蘭客戶端</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Ion network</source>
-        <translation><numerusform>與黑幣網絡建立了 %n 個連接</numerusform></translation>
+        <translation><numerusform>與阿蘭網絡建立了 %n 個連接</numerusform></translation>
     </message>
     <message>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>

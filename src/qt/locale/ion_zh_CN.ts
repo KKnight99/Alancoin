@@ -3,11 +3,11 @@
     <name>AboutDialog</name>
     <message>
         <source>About Ion</source>
-        <translation>关于众合币</translation>
+        <translation>关于阿兰币</translation>
     </message>
     <message>
         <source>&lt;b&gt;Ion&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;众合币客户端&lt;/b&gt; 版本</translation>
+        <translation>&lt;b&gt;阿兰币客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <source>
@@ -51,7 +51,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>These are your Ion addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来接收支付的众合币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
+        <translation>这是您用来接收支付的阿兰币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -63,7 +63,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Sign a message to prove you own a Ion address</source>
-        <translation>对信息进行签名以证明您对该众合币地址的所有权</translation>
+        <translation>对信息进行签名以证明您对该阿兰币地址的所有权</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -75,7 +75,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Verify a message to ensure it was signed with a specified Ion address</source>
-        <translation>验证信息以保证其经过指定众合币地址的签名</translation>
+        <translation>验证信息以保证其经过指定阿兰币地址的签名</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -185,7 +185,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的众合币将会丢失！</translation>
+        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的阿兰币将会丢失！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -209,7 +209,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Ion will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>众合币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
+        <translation>阿兰币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -282,7 +282,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Show information about Ion</source>
-        <translation>显示关于众合币的信息</translation>
+        <translation>显示关于阿兰币的信息</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -314,7 +314,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Send coins to a Ion address</source>
-        <translation>向指定的地址发送众合币</translation>
+        <translation>向指定的地址发送阿兰币</translation>
     </message>
     <message>
         <source>Modify configuration options for Ion</source>
@@ -350,7 +350,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Ion</source>
-        <translation>众合币</translation>
+        <translation>阿兰币</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -358,7 +358,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;About Ion</source>
-        <translation>关于众合币(&amp;A)</translation>
+        <translation>关于阿兰币(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -398,11 +398,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Ion client</source>
-        <translation>众合币客户端</translation>
+        <translation>阿兰币客户端</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Ion network</source>
-        <translation><numerusform>与众合币网络建立了 %n 个连接</numerusform></translation>
+        <translation><numerusform>与阿兰币网络建立了 %n 个连接</numerusform></translation>
     </message>
     <message>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
@@ -422,7 +422,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Not staking because you don't have mature coins</source>
-        <translation>未进行权益增值，因为钱包中没有成熟的众合币</translation>
+        <translation>未进行权益增值，因为钱包中没有成熟的阿兰币</translation>
     </message>
     <message>
         <source>&amp;Dashboard</source>
@@ -430,11 +430,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>接收众合币(&amp;R)</translation>
+        <translation>接收阿兰币(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>发送众合币(&amp;S)</translation>
+        <translation>发送阿兰币(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -478,7 +478,7 @@ Address: %4
     </message>
     <message>
         <source>URI can not be parsed! This can be caused by an invalid Ion address or malformed URI parameters.</source>
-        <translation>无法解析URI：无效的众合币地址或错误的URI参数。</translation>
+        <translation>无法解析URI：无效的阿兰币地址或错误的URI参数。</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
@@ -574,7 +574,7 @@ Address: %4
     </message>
     <message>
         <source>A fatal error occurred. Ion can no longer continue safely and will quit.</source>
-        <translation>发生严重错误，众合币客户端即将关闭。</translation>
+        <translation>发生严重错误，阿兰币客户端即将关闭。</translation>
     </message>
 </context>
 <context>
@@ -588,7 +588,7 @@ Address: %4
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Control</source>
-        <translation>众合币控制</translation>
+        <translation>阿兰币控制</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -833,7 +833,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>The entered address "%1" is not a valid Ion address.</source>
-        <translation>“%1” 不是有效的众合币地址。</translation>
+        <translation>“%1” 不是有效的阿兰币地址。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -848,7 +848,7 @@ This label turns red, if the priority is smaller than "medium".
     <name>GUIUtil::HelpMessageBox</name>
     <message>
         <source>Alancoin-Qt</source>
-        <translation>众合币客户端Alancoin-Qt</translation>
+        <translation>阿兰币客户端Alancoin-Qt</translation>
     </message>
     <message>
         <source>version</source>
@@ -919,11 +919,11 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Automatically start Ion after logging in to the system.</source>
-        <translation>开机自动启动众合币客户端</translation>
+        <translation>开机自动启动阿兰币客户端</translation>
     </message>
     <message>
         <source>&amp;Start Ion on system login</source>
-        <translation>开机时自动启动众合币客户端(&amp;S)</translation>
+        <translation>开机时自动启动阿兰币客户端(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -931,7 +931,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Automatically open the Ion client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>路由器自动打开众合币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
+        <translation>路由器自动打开阿兰币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -983,15 +983,15 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Ion.</source>
-        <translation>在此设置用户界面语言。重启众合币客户端后设置生效。</translation>
+        <translation>在此设置用户界面语言。重启阿兰币客户端后设置生效。</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>众合币金额单位(&amp;U)：</translation>
+        <translation>阿兰币金额单位(&amp;U)：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择众合币单位。</translation>
+        <translation>选择阿兰币单位。</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -999,7 +999,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>显示众合币控制选项(仅用于专家用户)</translation>
+        <translation>显示阿兰币控制选项(仅用于专家用户)</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1225,7 +1225,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Welcome to the Ion RPC console.</source>
-        <translation>欢迎使用众合币RPC控制台。</translation>
+        <translation>欢迎使用阿兰币RPC控制台。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1506,7 +1506,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Sign the message to prove you own this Ion address</source>
-        <translation>对该消息进行签名以证明您对该众合币地址的所有权</translation>
+        <translation>对该消息进行签名以证明您对该阿兰币地址的所有权</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1526,11 +1526,11 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>用来签名该消息的众合币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>用来签名该消息的阿兰币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Ion address</source>
-        <translation>确认该消息以保证它经由指定的众合币地址签名</translation>
+        <translation>确认该消息以保证它经由指定的阿兰币地址签名</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
@@ -1538,7 +1538,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Enter a Ion address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入众合币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>输入阿兰币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1546,7 +1546,7 @@ This label turns red, if the priority is smaller than "medium".
     </message>
     <message>
         <source>Enter Ion signature</source>
-        <translation>输入众合币签名</translation>
+        <translation>输入阿兰币签名</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1979,7 +1979,7 @@ This label turns red, if the priority is smaller than "medium".
     <name>bitcoin-core</name>
     <message>
         <source>Ion version</source>
-        <translation>众合币客户端 版本</translation>
+        <translation>阿兰币客户端 版本</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -2127,7 +2127,7 @@ alertnotify=echo %%s | mail -s "Ion Alert" admin@foo.com
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Ion will not work properly.</source>
-        <translation>警告：请确认您计算机的本地时间。如果时钟错误，众合币客户端将不能正常工作。</translation>
+        <translation>警告：请确认您计算机的本地时间。如果时钟错误，阿兰币客户端将不能正常工作。</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -2368,7 +2368,7 @@ alertnotify=echo %%s | mail -s "Ion Alert" admin@foo.com
     </message>
     <message>
         <source>Initialization sanity check failed. Ion is shutting down.</source>
-        <translation>初始化完整性检查失败。 众合币客户端即将关闭。</translation>
+        <translation>初始化完整性检查失败。 阿兰币客户端即将关闭。</translation>
     </message>
     <message>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
@@ -2477,7 +2477,7 @@ alertnotify=echo %%s | mail -s "Ion Alert" admin@foo.com
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Ion is probably already running.</source>
-        <translation>无法绑定到该计算机上的 %s. 众合币客户端可能已在运行中。</translation>
+        <translation>无法绑定到该计算机上的 %s. 阿兰币客户端可能已在运行中。</translation>
     </message>
     <message>
         <source>Fee per KB to add to transactions you send</source>
@@ -2497,7 +2497,7 @@ alertnotify=echo %%s | mail -s "Ion Alert" admin@foo.com
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Ion is probably already running.</source>
-        <translation>无法从数据目录 %s 获得锁定.  众合币客户端可能已在运行中.</translation>
+        <translation>无法从数据目录 %s 获得锁定.  阿兰币客户端可能已在运行中.</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>

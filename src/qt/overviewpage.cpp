@@ -140,8 +140,6 @@ OverviewPage::OverviewPage(QWidget *parent) :
     ui->labelTransactionsStatus->setText("(" + tr("out of sync") + ")");
 
     fLiteMode = GetBoolArg("-litemode", false);
-  
-
     if(fLiteMode) {
         ui->frameDarksend->setVisible(false);
     } else {
@@ -211,6 +209,28 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& stake, cons
     ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature); // show watch-only immature balance
+
+    // hidden darksend function ---yager
+    ui->frameDarksend->setVisible(false);
+    ui->label_2->setVisible(false);
+    ui->labelDarksendSyncStatus->setVisible(false);
+    ui->runAutoDenom->setVisible(false);
+    ui->label_6->setVisible(false);
+    ui->label_7->setVisible(false);
+    ui->darksendProgress->setVisible(false);
+    ui->labelAnonymizedText->setVisible(false);
+    ui->labelAnonymized->setVisible(false);
+    ui->label_8->setVisible(false);
+    ui->labelAmountRounds->setVisible(false);
+    ui->label_9->setVisible(false);
+    ui->labelSubmittedDenom->setVisible(false);
+    ui->darksendEnabled->setVisible(false);
+    ui->lineLastMessage->setVisible(false);
+    ui->darksendStatus->setVisible(false);
+    ui->darksendAuto->setVisible(false);
+    ui->toggleDarksend->setVisible(false);
+    ui->darksendReset->setVisible(false);
+    // hidden darksend function ---yager
 
     updateDarksendProgress();
 
